@@ -11,7 +11,7 @@ int n;
 int x;
 printf("Enter the value x and n = \n");
 scanf("%x%x",&n,&x);
-int y=right(1,7);
+int y=right(x,n);
 printf("The rotated right number is = %x\n",y);
 }
 
